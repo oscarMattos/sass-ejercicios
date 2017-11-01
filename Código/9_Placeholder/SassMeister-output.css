@@ -1,0 +1,30 @@
+.mensaje-default, .mensaje-exito, .mensaje-error, .mensaje-error_serio {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mensaje-default {
+  border-color: gray;
+  background-color: #9a9a9a;
+}
+
+.mensaje-exito {
+  border-color: green;
+  background-color: #00b300;
+}
+
+.mensaje-error {
+  border-color: red;
+  background-color: #ff4d4d;
+}
+
+.mensaje-error_serio {
+  border-color: red;
+  background-color: #b30000;
+}

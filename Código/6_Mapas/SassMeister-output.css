@@ -1,0 +1,23 @@
+.mensaje-1 {
+  background-color: black;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.mensaje-2 {
+  background-color: red;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.mensaje-3 {
+  background-color: green;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+}

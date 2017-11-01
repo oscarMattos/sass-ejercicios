@@ -1,0 +1,51 @@
+.mensaje-default {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-color: gray;
+  background-color: #9a9a9a;
+}
+
+.mensaje-exito {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-color: green;
+  background-color: #00b300;
+}
+
+.mensaje-error {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-color: red;
+  background-color: #ff4d4d;
+}
+
+.mensaje_serio {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-color: red;
+  background-color: #b30000;
+}

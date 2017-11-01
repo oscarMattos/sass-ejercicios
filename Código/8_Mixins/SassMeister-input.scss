@@ -1,0 +1,37 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+@mixin mensaje ($color){
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style:solid;
+  border-width:2px;
+  margin-bottom:20px;
+  color: white;
+  text-transform: uppercase;
+  border-color: $color;
+  
+}
+
+.mensaje-default{
+   @include mensaje(gray);
+   background-color:lighten(gray, 10%);
+}
+
+.mensaje-exito {
+   @include mensaje(green);
+   background-color:lighten(green, 10%);
+}
+
+.mensaje-error {
+   @include mensaje(red);
+   background-color:lighten(red, 15%);
+} 
+
+.mensaje_serio {
+   @include mensaje(red);
+   background-color:darken(red, 15%);
+} 

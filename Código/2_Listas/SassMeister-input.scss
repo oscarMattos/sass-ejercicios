@@ -1,0 +1,14 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+$backgrounds: black, red, blue;
+
+.mensaje {
+  background-color: nth($backgrounds, 3);
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+}

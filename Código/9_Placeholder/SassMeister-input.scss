@@ -1,0 +1,47 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+%mensaje {
+  font-family: sans-serif;
+  padding: 10px;
+  color: #000;
+  border-style:solid;
+  border-width:2px;
+  margin-bottom:20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mensaje{
+  &-default{
+   @extend %mensaje;
+   border-color:gray;
+   background-color:lighten(gray, 10%);
+  } 
+}
+
+.mensaje {
+  &-exito{
+   @extend %mensaje;
+   border-color:green;
+   background-color:lighten(green, 10%);
+  } 
+}
+
+.mensaje {
+  &-error{
+   @extend %mensaje;
+   border-color:red;
+   background-color:lighten(red, 15%);
+  }
+} 
+
+.mensaje {
+  &-error_serio{
+   @extend %mensaje;
+   border-color:red;
+   background-color:darken(red, 15%);
+  }
+} 

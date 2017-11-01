@@ -1,0 +1,32 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+$sans: sans-serif;
+$colorTexto: #fff;
+$mayuscula: uppercase;
+$tamanoParrafo: 50px;
+
+@if(lightness($colorTexto) < 50% ){
+  .mensaje{
+    text-shadow: 2px 1px 1px #fff;
+  }
+}@else{
+  .mensaje{
+    text-shadow: 2px 1px 1px #000;
+  }
+}
+.mensaje{
+  background-color: orange;
+  font-family: $sans;
+  color: $colorTexto;
+  text-transform: $mayuscula;
+  font-size: $tamanoParrafo;
+}
+
+
+
+
+
+

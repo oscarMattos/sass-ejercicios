@@ -1,0 +1,16 @@
+// ----
+// Sass (v3.4.21)
+// Compass (v1.0.3)
+// ----
+
+$sans: sans-serif;
+$colorTexto: black;
+$mayuscula: uppercase;
+
+.mensaje{
+  font-family: $sans;
+  color: $colorTexto;
+  text-transform: $mayuscula;
+}
+
+
